@@ -37,3 +37,10 @@ function wprint(text, delaytime)
 	end
 end
 
+function printspam(text)
+	while true do
+		print(text)
+		wait(0.005)
+	end
+end
+
